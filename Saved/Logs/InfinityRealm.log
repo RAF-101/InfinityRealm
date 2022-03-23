@@ -944,3 +944,165 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.03.23-19.19.55:690][923]LogEditorTransaction: Undo Move Node
 [2022.03.23-19.19.56:446][949]LogEditorTransaction: Undo Move Node
 [2022.03.23-19.19.57:228][ 12]LogEditorTransaction: Undo Create Reroute Node
+[2022.03.23-19.22.55:224][308]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2022.03.23-19.22.55:224][308]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2022.03.23-19.26.23:723][508]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2022.03.23-19.26.23:725][508]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Maps/TopDownMap' took 0.033
+[2022.03.23-19.26.23:725][508]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/Blueprints/BP_TopDownController] ([2] browsable assets)...
+[2022.03.23-19.26.23:725][508]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/BP_TopDownController]
+[2022.03.23-19.26.23:732][508]LogPackageLocalizationCache: Processed 30 localized package path(s) for 1 prioritized culture(s) in 0.006339 seconds
+[2022.03.23-19.26.23:751][508]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDown/Blueprints/BP_TopDownController_Auto1
+[2022.03.23-19.26.23:751][508]LogSavePackage: Moving 'C:/Users/KYGAS/Documents/Unreal Projects/InfinityRealm/Saved/BP_TopDownController_Auto16E4E65814AFD56C320ED70827DFB7989.tmp' to 'C:/Users/KYGAS/Documents/Unreal Projects/InfinityRealm/Saved/Autosaves/Game/TopDown/Blueprints/BP_TopDownController_Auto1.uasset'
+[2022.03.23-19.26.23:752][508]LogFileHelpers: Auto-saving content packages took 0.027
+[2022.03.23-19.33.06:187][809]LogSlate: Window 'BP_TopDownController' being destroyed
+[2022.03.23-19.33.06:194][809]LogSlate: Window 'BP_TopDownController' being destroyed
+[2022.03.23-19.33.06:198][809]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.03.23-19.33.06:198][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-19.35.00:350][239]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.03.23-19.35.00:356][239]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.03.23-19.35.00:357][239]LogPlayLevel: [PlayLevel] Compiling BP_TopDownController before play...
+[2022.03.23-19.35.00:419][239]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2022.03.23-19.35.00:431][239]LogPlayLevel: PlayLevel: Blueprint regeneration took 74 ms (1 blueprints)
+[2022.03.23-19.35.00:431][239]PIE: New page: PIE session: TopDownMap (Mar 23, 2022, 9:35:00 PM)
+[2022.03.23-19.35.00:431][239]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.03.23-19.35.00:437][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006197s)
+[2022.03.23-19.35.00:437][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006255s)
+[2022.03.23-19.35.00:437][239]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.03.23-19.35.00:437][239]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.03.23-19.35.00:438][239]LogAIModule: Creating AISystem for world TopDownMap
+[2022.03.23-19.35.00:438][239]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2022.03.23-19.35.00:485][239]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2022.03.23-19.35.00:490][239]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.03.23-19.35.00:490][239]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.23-19.35.00:490][239]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.23-19.35.00:490][239]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.23-19.35.00:490][239]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.23-19.35.00:490][239]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.23-19.35.00:490][239]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.03.23-19.35.00:490][239]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.23-19.35.00:490][239]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.23-19.35.00:491][239]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.23-19.35.00:491][239]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.23-19.35.00:491][239]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.23-19.35.00:492][239]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.03.23-19.35.00:505][239]LogAudioMixer: Display: Using Audio Hardware Device Speakers (5- USB Multi-Channel Audio Device)
+[2022.03.23-19.35.00:505][239]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.23-19.35.00:505][239]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.23-19.35.00:505][239]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.23-19.35.00:505][239]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2022.03.23-19.35.00:505][239]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2022.03.23-19.35.00:506][239]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2022.03.23-19.35.00:506][239]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2022.03.23-19.35.00:506][239]LogInit: FAudioDevice initialized.
+[2022.03.23-19.35.00:506][239]LogAudio: Display: Audio Device (ID: 6) registered with world 'TopDownMap'.
+[2022.03.23-19.35.00:568][239]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.23-19.35.00:568][239]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2022.03.23-19.35.00:571][239]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2022.03.23-20.35.00
+[2022.03.23-19.35.00:571][239]LogWorld: Bringing up level for play took: 0.002462
+[2022.03.23-19.35.00:573][239]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2022.03.23-19.35.00:577][239]PIE: Server logged in
+[2022.03.23-19.35.00:578][239]PIE: Play in editor total start time 0.221 seconds.
+[2022.03.23-19.35.10:339][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.23-19.35.10:339][155]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.03.23-19.35.10:339][155]LogSlate: Window 'InfinityRealm Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.03.23-19.35.10:359][155]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2022.03.23-19.35.10:360][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-19.35.10:367][155]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.23-19.35.10:390][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-19.35.10:407][155]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.23-19.35.10:408][155]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2022.03.23-19.35.10:409][155]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2022.03.23-19.35.10:414][155]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2022.03.23-19.35.10:439][156]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2022.03.23-19.35.11:352][249]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.03.23-19.35.11:357][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.23-19.35.11:357][249]PIE: New page: PIE session: TopDownMap (Mar 23, 2022, 9:35:11 PM)
+[2022.03.23-19.35.11:357][249]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.03.23-19.35.11:362][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005718s)
+[2022.03.23-19.35.11:362][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.005773s)
+[2022.03.23-19.35.11:363][249]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.03.23-19.35.11:363][249]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.03.23-19.35.11:363][249]LogAIModule: Creating AISystem for world TopDownMap
+[2022.03.23-19.35.11:363][249]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2022.03.23-19.35.11:381][249]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2022.03.23-19.35.11:382][249]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.03.23-19.35.11:382][249]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.23-19.35.11:382][249]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.23-19.35.11:382][249]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.23-19.35.11:382][249]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.23-19.35.11:382][249]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.23-19.35.11:382][249]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.03.23-19.35.11:382][249]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.23-19.35.11:382][249]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.23-19.35.11:383][249]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.23-19.35.11:383][249]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.23-19.35.11:383][249]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.23-19.35.11:384][249]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.03.23-19.35.11:395][249]LogAudioMixer: Display: Using Audio Hardware Device Speakers (5- USB Multi-Channel Audio Device)
+[2022.03.23-19.35.11:396][249]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.23-19.35.11:396][249]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.23-19.35.11:396][249]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.23-19.35.11:396][249]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2022.03.23-19.35.11:396][249]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2022.03.23-19.35.11:397][249]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2022.03.23-19.35.11:397][249]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2022.03.23-19.35.11:397][249]LogInit: FAudioDevice initialized.
+[2022.03.23-19.35.11:397][249]LogAudio: Display: Audio Device (ID: 7) registered with world 'TopDownMap'.
+[2022.03.23-19.35.11:442][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.23-19.35.11:442][249]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2022.03.23-19.35.11:445][249]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2022.03.23-20.35.11
+[2022.03.23-19.35.11:445][249]LogWorld: Bringing up level for play took: 0.002439
+[2022.03.23-19.35.11:447][249]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2022.03.23-19.35.11:450][249]PIE: Server logged in
+[2022.03.23-19.35.11:451][249]PIE: Play in editor total start time 0.094 seconds.
+[2022.03.23-19.35.39:168][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.23-19.35.39:168][642]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.03.23-19.35.39:168][642]LogSlate: Window 'InfinityRealm Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.03.23-19.35.39:180][642]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2022.03.23-19.35.39:181][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-19.35.39:190][642]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.23-19.35.39:214][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-19.35.39:231][642]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.23-19.35.39:232][642]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2022.03.23-19.35.39:233][642]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2022.03.23-19.35.39:238][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.03.23-19.35.39:480][643]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2022.03.23-19.35.56:715][450]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDown/Blueprints/BP_TopDownController.BP_TopDownController
+[2022.03.23-19.35.56:715][450]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.03.23-19.36.00:190][684]LogSlate: Window 'BP_TopDownController' being destroyed
+[2022.03.23-19.36.00:197][684]LogSlate: Window 'BP_TopDownController' being destroyed
+[2022.03.23-19.36.00:201][684]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.03.23-19.36.00:201][684]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-19.36.02:746][936]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2022.03.23-19.36.02:746][936]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.03.23-19.36.22:864][133]LogSlate: Window 'BP_TopDownCharacter' being destroyed
+[2022.03.23-19.36.22:868][133]LogSlate: Window 'BP_TopDownCharacter' being destroyed
+[2022.03.23-19.36.22:872][133]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.03.23-19.36.22:872][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-19.36.32:743][ 71]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2022.03.23-19.36.32:743][ 71]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.03.23-19.36.39:242][651]LogSlate: Window 'BP_TopDownCharacter' being destroyed
+[2022.03.23-19.36.39:250][651]LogSlate: Window 'BP_TopDownCharacter' being destroyed
+[2022.03.23-19.36.39:253][651]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.03.23-19.36.39:253][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-19.36.46:930][465]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2022.03.23-19.36.46:930][465]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.03.23-19.37.28:815][451]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.03.23-19.38.41:607][596]LogSlate: Window 'BP_TopDownCharacter' being destroyed
+[2022.03.23-19.38.41:615][596]LogSlate: Window 'BP_TopDownCharacter' being destroyed
+[2022.03.23-19.38.41:619][596]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.03.23-19.38.41:619][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-19.38.48:902][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Blueprints/BP_TopDownCharacter" FILE="C:/Users/KYGAS/Documents/Unreal Projects/InfinityRealm/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset" SILENT=true
+[2022.03.23-19.38.48:905][291]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownCharacter
+[2022.03.23-19.38.48:906][291]LogSavePackage: Moving 'C:/Users/KYGAS/Documents/Unreal Projects/InfinityRealm/Saved/BP_TopDownCharacterC8D7CDAA456A74548F90EBBDF516C771.tmp' to 'C:/Users/KYGAS/Documents/Unreal Projects/InfinityRealm/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset'
+[2022.03.23-19.38.48:918][291]AssetCheck: New page: Asset Save: BP_TopDownCharacter
+[2022.03.23-19.38.48:918][291]LogContentValidation: Display: Validating Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2022.03.23-19.38.50:551][457]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownController
+[2022.03.23-19.38.50:552][457]LogSavePackage: Moving 'C:/Users/KYGAS/Documents/Unreal Projects/InfinityRealm/Saved/BP_TopDownController2318001E4D174FFFDE8AF492F46D027A.tmp' to 'C:/Users/KYGAS/Documents/Unreal Projects/InfinityRealm/Content/TopDown/Blueprints/BP_TopDownController.uasset'
+[2022.03.23-19.38.50:563][457]AssetCheck: New page: Asset Save: BP_TopDownController
+[2022.03.23-19.38.50:563][457]LogContentValidation: Display: Validating Blueprint /Game/TopDown/Blueprints/BP_TopDownController.BP_TopDownController
+[2022.03.23-19.38.52:020][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Blueprints/BP_TopDownGameMode" FILE="C:/Users/KYGAS/Documents/Unreal Projects/InfinityRealm/Content/TopDown/Blueprints/BP_TopDownGameMode.uasset" SILENT=true
+[2022.03.23-19.38.52:022][608]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownGameMode
+[2022.03.23-19.38.52:023][608]LogSavePackage: Moving 'C:/Users/KYGAS/Documents/Unreal Projects/InfinityRealm/Saved/BP_TopDownGameMode822CC992486B2C95F6E8148E3F840C06.tmp' to 'C:/Users/KYGAS/Documents/Unreal Projects/InfinityRealm/Content/TopDown/Blueprints/BP_TopDownGameMode.uasset'
+[2022.03.23-19.38.52:033][608]AssetCheck: New page: Asset Save: BP_TopDownGameMode
+[2022.03.23-19.38.52:033][608]LogContentValidation: Display: Validating Blueprint /Game/TopDown/Blueprints/BP_TopDownGameMode.BP_TopDownGameMode
